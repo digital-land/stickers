@@ -1,21 +1,22 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="66mm" height="66mm" viewBox="0 0 66 66" version="1.1">
     <defs>
-        <style>@import url(https://fonts.googleapis.com/css?family=Lato);</style>
+        <style>@import url(https://fonts.googleapis.com/css?family=Oswald:400,700);</style>
     </defs>
-    <!--
-    <path id="edge" d="M0 0h66v66h-66z" fill="none" stroke="#000" stroke-width=".2"/>
-    <path id="bleed" d="M3 3h60v60h-60z" fill="none" stroke="#000" stroke-width=".01" stroke-dasharray="1,.25,.1,.25"/>
-    -->
-
-    <path id="blue" d="M15 68c1-68 18-48 60-48" fill="none" stroke="#c4d9ed" stroke-width="5"/>
-    <path id="black" d="M33 68C30 14 45 35 80 33" fill="none" stroke="#000" stroke-width="5"/>
+    <path id="blue" d="M18 68c1-68 18-48 80-48" fill="none" stroke="#d5ddbb" stroke-width="5"/>
+    <path id="black" d="M33 68C30 14 50 35 68 33" fill="none" stroke="#a7cef1" stroke-width="5"/>
     <path id="red" d="M48 66V48" fill="none" stroke="#d4351c" stroke-width="5"/>
 
-    <path id="box" d="M43 39.75h10v12h-10z" fill="#fff" stroke="#d4351c" stroke-width="1.5"/>
-    <path id="grid" d="M43.5 49.5h9m-9-1.5h9m-9-1.5h9m-9-1.5h9m-9-1.5h9m-9-1.5h9" fill="none" stroke="#d4351c" stroke-width=".3"/>
+    <path id="box" d="M43 42h10v12h-10z" fill="#fff" stroke="#d4351c" stroke-width="1.5"/>
+    <path id="records" d="M43.5 51.75h9m-9-1.5h9m-9-1.5h9m-9-1.5h9m-9-1.5h9m-9-1.5h9" fill="none" stroke="#d4351c" stroke-width=".3"/>
 
-    <text font-family="Lato" font-size="8">
+    <text font-family="Oswald" font-size="9" font-weight="700">
         <tspan x="8" y="13">Developer</tspan>
-        <tspan x="8" y="21">Contributions</tspan>
+        <tspan x="8" y="24">Contributions</tspan>
     </text>
+
+    <!--
+    -->
+    <path id="edge" d="M0 0h66v66h-66z" fill="none" stroke="#000" stroke-width=".2"/>
+    <path id="grid" d="M0 3h66 M0 18h66 M0 33h66 M0 48h66 M18 0 V66 M33 0 V66 M48 0 V66 M0 63h66 M3 0V66 M63 0 V66" fill="none" stroke="#888" stroke-width=".05" stroke-dasharray="1,.25,.1,.25"/>
+
 </svg>
